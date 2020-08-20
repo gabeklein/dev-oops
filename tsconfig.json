@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+      "baseUrl": "src/",
+      "outDir": "lib/",
+      "target": "ES6",
+      "lib": ["ES2015", "DOM"],
+      "noUnusedLocals": true,
+      "strict": true
+  }
+}
