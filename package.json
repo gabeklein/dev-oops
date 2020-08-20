@@ -1,6 +1,6 @@
 {
-  "name": "dev-oops",
-  "version": "1.0.0-beta.0",
+  "name": "@gabeklein/dev-oops",
+  "version": "1.0.0",
   "main": "lib",
   "module": "src",
   "files": [
@@ -9,7 +9,11 @@
   ],
   "types": "./index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc -b",
+    "prepublish": "tsc -b"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "devDependencies": {
