@@ -27,7 +27,6 @@ export function createErrorFactory
 
       function buildThisError(...args: A){
         const error = compute(message, ...args);
-        debugger
         return EnhansedError.mixin(error);
       }
 
