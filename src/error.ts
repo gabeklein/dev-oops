@@ -6,4 +6,8 @@ export class EnhansedError extends Error {
   warn(){
     console.warn(this.message);
   }
+
+  throw(){
+    throw this;
+  }
 }

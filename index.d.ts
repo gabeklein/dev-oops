@@ -6,6 +6,7 @@ type ErrorFactory
 
 declare class EnhansedError extends Error {
   warn(): void;
+  throw(): never;
 }
 
 export function createErrorFactory
